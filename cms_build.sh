@@ -11,7 +11,8 @@ echo "Change directory to scratch"
 cd /scratch/$PROJECT/$USER
 
 echo "Download source code and build scripts"
-git clone --recursive https://github.com/NOAA-GFDL/MOM6-examples.git MOM6-examples
+#git clone --recursive https://github.com/NOAA-GFDL/MOM6-examples.git MOM6-examples
+git clone --recursive https://github.com/willaguiar/MOM6-examples.git MOM6-examples
 
 echo "Configure build scripts"
 cd mom6-ninja-nci
