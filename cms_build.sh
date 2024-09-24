@@ -8,11 +8,11 @@ module load conda/analysis3
 module load openmpi/4.0.2
 
 echo "Change directory to scratch"
-cd /scratch/v45/wf4500/
+cd /scratch/g40/wf4500/
 
 echo "Download source code and build scripts"
-#git clone --recursive https://github.com/NOAA-GFDL/MOM6-examples.git MOM6-examples
-git clone --recursive https://github.com/willaguiar/MOM6-examples.git MOM6-examples
+git clone --recursive https://github.com/NOAA-GFDL/MOM6-examples.git MOM6-examples
+#git clone --recursive https://github.com/willaguiar/MOM6-examples.git MOM6-examples
 
 echo "Configure build scripts"
 cd mom6-ninja-nci
